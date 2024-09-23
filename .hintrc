@@ -1,0 +1,22 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%)",
+          "background-color: color-mix(in srgb, var(--accent-color), transparent 90%)",
+          "border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%)",
+          "background-color: color-mix(in srgb, var(--accent-color), transparent 20%)",
+          "background-color: color-mix(in srgb, var(--default-color), transparent 90%)",
+          "color: color-mix(in srgb, var(--default-color), transparent 70%)",
+          "overflow: clip",
+          "color: color-mix(in srgb, var(--default-color), transparent 50%)"
+        ]
+      }
+    ]
+  }
+}
