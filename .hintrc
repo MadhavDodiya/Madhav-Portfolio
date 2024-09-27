@@ -17,6 +17,14 @@
           "color: color-mix(in srgb, var(--default-color), transparent 50%)"
         ]
       }
-    ]
+    ],
+    "no-inline-styles": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ],
+    "disown-opener": "off"
   }
 }
